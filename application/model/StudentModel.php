@@ -30,6 +30,7 @@ class StudentModel extends YunzhiModel
     public function AttachmentModel()
     {
         if (is_null($this->AttachmentModel)) {
+            
             $this->AttachmentModel = AttachmentModel::get((int)$this->getData('attachmentId'));
         }
 
