@@ -1,5 +1,5 @@
 <?php
-namespace app;
+namespace app\model;
 use think\Model;
 
 class YunzhiModel extends Model
